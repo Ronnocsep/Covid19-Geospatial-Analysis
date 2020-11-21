@@ -25,11 +25,10 @@ def make_df_across_all_cantons_and_dates(start_date, end_date, canton_list):
 
 
 
-'''
-TEST
 
-start = pd.to_datetime("10/11/20", dayfirst=True).date()
-end = pd.to_datetime("14/11/20", dayfirst=True).date()
+'''
+start = pd.to_datetime("24/01/20", dayfirst=True).date()
+end = pd.to_datetime("21/11/20", dayfirst=True).date()
 
 print(start)
 print(end)
@@ -40,7 +39,7 @@ canton_df.drop(["ID_0","ISO","NAME_0","ID_1","TYPE_1","ENGTYPE_1","NL_NAME_1","V
 canton_list = canton_df["NAME_1"].tolist()
 #print(canton_list)
 
-make_df_with_all_cantons_and_dates(start, end, canton_list)
-'''
+make_df_across_all_cantons_and_dates(start, end, canton_list)
 
+'''
 
