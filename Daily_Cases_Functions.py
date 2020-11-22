@@ -26,6 +26,16 @@ def make_df_across_all_cantons_and_dates(start_date, end_date, canton_list):
 
 
 
+
+
+
+
+
+
+
+
+
+#Testing functionality
 '''
 start = pd.to_datetime("24/01/20", dayfirst=True).date()
 end = pd.to_datetime("21/11/20", dayfirst=True).date()
