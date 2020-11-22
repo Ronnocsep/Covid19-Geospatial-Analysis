@@ -18,5 +18,5 @@ Case information provided online by ETH University Zurich.
 ![image](cumulative_cases_example_2020-11-06.png)
 <br><br><br> 
 
-![image](daily_cases_example_2020-11-06.png)
+![image](daily_cases_example2_2020-11-06.png)
 <br><br>
